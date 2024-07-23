@@ -12,7 +12,7 @@ const ProjectCard = ({ project }) => {
     <Grid item key={project.key} xs={12} sm={6}>
       <Card
         variant='outlined'
-        sx={{ maxWidth: 345, p: 3, display: 'flex', flexDirection: 'column', borderRadius: 4 }}
+        sx={{ maxWidth: 345, p: 2, display: 'flex', flexDirection: 'column', borderRadius: 4 }}
       >
         <CardContent>
           <Typography variant='subtitle1' gutterBottom component='div' >
@@ -26,7 +26,7 @@ const ProjectCard = ({ project }) => {
           component='img'
           image={project.image}
           alt={project.imageLabel}
-          sx={{ pt: 2, borderRadius: 3 }}
+          sx={{ borderRadius: 4 }}
         />
       </Card>
     </Grid>
